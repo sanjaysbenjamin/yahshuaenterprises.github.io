@@ -145,16 +145,16 @@ section{padding-block:clamp(56px,8vw,96px)}
 @media (max-width:820px){.company{grid-template-columns:1fr}}
 
 /* contact */
-.contact{background:var(--ink);color:var(--ground)}
-.contact .eyebrow{color:color-mix(in srgb,var(--ground) 65%,transparent)}
+.contact{--cbg:#141D26;--cfg:#F5F7FA;background:var(--cbg);color:var(--cfg);border-block:1px solid var(--line)}
+.contact .eyebrow{color:color-mix(in srgb,var(--cfg) 65%,transparent)}
 .contact h2{font-size:clamp(30px,4vw,48px);font-weight:800;font-stretch:112%;margin:12px 0 18px}
-.contact p{color:color-mix(in srgb,var(--ground) 75%,transparent);max-width:52ch;margin:0}
+.contact p{color:color-mix(in srgb,var(--cfg) 75%,transparent);max-width:52ch;margin:0}
 .cgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:40px;align-items:start}
-.card{border:1px solid color-mix(in srgb,var(--ground) 18%,transparent);border-radius:8px;padding:22px;display:grid;gap:18px}
-.card .lbl{font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:color-mix(in srgb,var(--ground) 60%,transparent);margin-bottom:6px}
+.card{border:1px solid color-mix(in srgb,var(--cfg) 18%,transparent);border-radius:8px;padding:22px;display:grid;gap:18px}
+.card .lbl{font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:color-mix(in srgb,var(--cfg) 60%,transparent);margin-bottom:6px}
 .card .val{font-size:17px;word-break:break-word}
 .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.copy{font:500 12px/1 var(--mono);padding:7px 10px;border-radius:4px;border:1px solid color-mix(in srgb,var(--ground) 30%,transparent);background:transparent;color:var(--ground);cursor:pointer}
+.copy{font:500 12px/1 var(--mono);padding:7px 10px;border-radius:4px;border:1px solid color-mix(in srgb,var(--cfg) 30%,transparent);background:transparent;color:var(--cfg);cursor:pointer}
 .copy:hover{border-color:var(--signal);color:var(--signal)}
 .contact a{color:var(--signal)}
 @media (max-width:820px){.cgrid{grid-template-columns:1fr}}
@@ -166,6 +166,9 @@ footer .code{font-family:var(--mono)}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
 </style>
 
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Yahshua Enterprises (OPC) Private Limited","alternateName":"Yahshua Enterprises","url":"https://www.yahshuaenterprises.com/","email":"sb@yahshuaenterprises.com","telephone":"+91-7208285714","description":"Custom software, web and mobile apps, cloud, IT support and smart-home IoT automation.","foundingDate":"2021-07-14","identifier":"U92490PN2021OPC202638","address":{"@type":"PostalAddress","streetAddress":"Flat No. 303, Licorice B/1-W/2, Green Groves, Gat No. 1185/A/9B,10, Wagholi","addressLocality":"Pune","addressRegion":"Maharashtra","postalCode":"412207","addressCountry":"IN"},"areaServed":"IN"}
+</script>
 </head>
 <body>
 <header>
